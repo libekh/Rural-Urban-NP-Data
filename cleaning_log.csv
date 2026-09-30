@@ -1,0 +1,26 @@
+step,fips,years,change
+1 territories,Guam (1 units),all,dropped: outside 50 states + DC
+1 territories,Puerto Rico (78 units),all,dropped: outside 50 states + DC
+1 territories,US Virgin Islands (3 units),all,dropped: outside 50 states + DC
+2 defunct units,02001,"2018,2019,2020",dropped: 'State of Alaska' rows have no clinician counts and no population
+2 defunct units,02201,"2018,2019,2020,2021",dropped: 'Pr of Wales-OutrKetch(CA)' rows have no clinician counts and no population
+2 defunct units,02232,"2018,2019,2020,2021",dropped: 'Skagway-Hoonah-Angoon(CA)' rows have no clinician counts and no population
+2 defunct units,02280,"2018,2019,2020,2021",dropped: 'Wrangell-Petersburg (CA)' rows have no clinician counts and no population
+2 defunct units,51515,"2018,2019,2020,2021",dropped: 'Bedford City' rows have no clinician counts and no population
+2 defunct units,51560,"2018,2019,2020,2021",dropped: 'Clifton Forge City' rows have no clinician counts and no population
+3 Alaska,02261,2020-2023,"Chugach (02063) + Copper River (02066) summed into Valdez-Cordova (02261): population 2020-23, counts 2021-23; 02063/02066 rows removed"
+4 Connecticut,09001-09015,2022,"legacy-county population imputed from planning-region total (3,626,205) x 2021 county shares"
+4 Connecticut,09001-09015,2023,"legacy-county population imputed from planning-region total (3,617,176) x 2021 county shares"
+4 Connecticut,09110-09190,"2022,2023","dropped planning-region rows (population only, no counts)"
+5 RUCC,08101,all,"rucc13 set to 3 (Pueblo, CO: invalid code 32)"
+5 RUCC,35039,all,"rucc13 set to 4 (Rio Arriba, NM: invalid code 45)"
+5 RUCC,08043,all,"rucc13 set to 4 (Fremont, CO: coded 5, USDA 2013 file lists 4)"
+6b RUCC 2023,02261,all,rucc23 = 9 (Chugach and Copper River are both 9)
+6b RUCC 2023,09001,all,rucc23 = 2 from planning region 09190/09120 (dominant-region approximation)
+6b RUCC 2023,09003,all,rucc23 = 1 from planning region 09110 (dominant-region approximation)
+6b RUCC 2023,09005,all,rucc23 = 4 from planning region 09160 (dominant-region approximation)
+6b RUCC 2023,09007,all,rucc23 = 1 from planning region 09130 (dominant-region approximation)
+6b RUCC 2023,09009,all,rucc23 = 2 from planning region 09170/09140 (dominant-region approximation)
+6b RUCC 2023,09011,all,rucc23 = 2 from planning region 09180 (dominant-region approximation)
+6b RUCC 2023,09013,all,rucc23 = 1 from planning region 09110 (dominant-region approximation)
+6b RUCC 2023,09015,all,rucc23 = 4 from planning region 09150 (dominant-region approximation)

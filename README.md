@@ -10,9 +10,9 @@ County-year panel of physicians, nurse practitioners (NPs), and physician assist
 | `data/raw/AHRF_allphys_NP_PA_panel_2018_2023.csv` | Original panel before cleaning (19,393 rows) |
 | `data/cleaning_log.csv` | Every change made during cleaning |
 | `data/reference/Ruralurbancontinuumcodes2023.csv` | USDA ERS 2023 Rural-Urban Continuum Codes |
-| `clean_panel.py` | Builds the clean panel from the raw panel |
-| `reproduce_abstract.py` | Main results (2023 RUCC); writes `results/main_results.txt` |
-| `sensitivity_rucc2013.py` | Reruns the main results with 2013 RUCC; writes `results/sensitivity_rucc2023_vs_2013.csv` |
+| `scripts/clean_panel.py` | Builds the clean panel from the raw panel |
+| `scripts/reproduce_abstract.py` | Main results (2023 RUCC); writes `results/main_results.txt` |
+| `scripts/sensitivity_rucc2013.py` | Reruns the main results with 2013 RUCC; writes `results/sensitivity_rucc2023_vs_2013.csv` |
 | `results/` | Output of the two analysis scripts |
 
 ## How the raw panel was built
@@ -21,11 +21,13 @@ AHRF county releases 2019–2020, 2020–2021, 2021–2022, 2022–2023, 2023–
 
 ## Reproducing
 
+Run these commands from the main repository folder:
+
 ```
 pip install -r requirements.txt
-python clean_panel.py
-python reproduce_abstract.py
-python sensitivity_rucc2013.py
+python scripts/clean_panel.py
+python scripts/reproduce_abstract.py
+python scripts/sensitivity_rucc2013.py
 ```
 
 ## Rurality classification

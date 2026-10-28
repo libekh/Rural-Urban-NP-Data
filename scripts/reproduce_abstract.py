@@ -1,6 +1,6 @@
 """
 Main results: descriptive and regression findings using 2023 RUCC (primary classification).
-Run after clean_panel.py:  python reproduce_abstract.py
+Run after clean_panel.py, from the main repository folder:  python scripts/reproduce_abstract.py
 Also written to results/main_results.txt
 """
 import io

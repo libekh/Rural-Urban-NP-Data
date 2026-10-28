@@ -1,6 +1,6 @@
 """
 Sensitivity analysis: rerun the main results using 2013 RUCC instead of 2023 RUCC (primary).
-Run after clean_panel.py:  python sensitivity_rucc2013.py
+Run after clean_panel.py, from the main repository folder:  python scripts/sensitivity_rucc2013.py
 Writes results/sensitivity_rucc2023_vs_2013.csv
 """
 import os

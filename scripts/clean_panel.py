@@ -5,7 +5,7 @@ Input : data/raw/AHRF_allphys_NP_PA_panel_2018_2023.csv  (original analytic pane
 Output: data/AHRF_allphys_NP_PA_panel_2018_2023_clean.csv
         data/cleaning_log.csv
 
-Every change is recorded in the cleaning log. Run: python clean_panel.py
+Every change is recorded in the cleaning log. Run from the main repository folder: python scripts/clean_panel.py
 """
 import numpy as np
 import pandas as pd
